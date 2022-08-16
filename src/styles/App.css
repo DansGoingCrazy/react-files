@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+p{
+  padding:0;
+  margin:0;
+}
+
+.FilesPage {
+  display: flex;
+}
+
+.ListColumn {
+Width:80%;
+border: solid 1px;
+}
+
+.ContentColumn {
+  Width:20%;
+  border: solid 1px;
+}
+
+.file {
+  display: flex;
+  justify-content:space-between;
+  padding:0;
+  margin:0;
+
+  background-color: #d3d3d3;
+}
+
+.Col1{
+  Width:50%;
+  padding:0;
+  margin:0;
+}
+
+.Col2{
+  Width:50%;
+  padding:0;
+  margin:0;
+}
