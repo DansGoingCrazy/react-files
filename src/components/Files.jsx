@@ -1,17 +1,22 @@
+import Application from './Application'
 import File from './File'
 
 const Files = (props) => 
 {
-  console.log(props)
+  // console.log(props)
   return (
     <div className="files">
-      {props.data.map((file) => (
+      {props.uniqueFiles.map((file) => (
         <File
-          key={file.file_number}
-          number={file.file_number}
-          title={file.file_title}
+          key={file.FILEID}
+          id={file.id}
+          number={file.FULLCASEFILENO}
+          title={file.TITLE}
+          filed={file.CREATEDDATE}
+          application={file.APPLICATION}
         />
       ))}
+
     </div>
 
   ) 
