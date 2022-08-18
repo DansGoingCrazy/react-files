@@ -23,8 +23,20 @@ p{
 }
 
 .SideNavBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
   width: 70px;
   height: 100%;
+}
+
+#Icon{
+  background-color: #3d3c3c;
+  padding:10px;
+  border-radius: 8px;
+  margin: 10px 0
 }
 
 .TopNavBar{
