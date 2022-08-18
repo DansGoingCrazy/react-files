@@ -57,9 +57,25 @@ margin:10px;
 }
 
 .SideNavBar{
-
+  width: 70px;
+  height: 100%;
 }
 
 .TopNavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+}
 
+.TopNavBar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
