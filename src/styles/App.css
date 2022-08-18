@@ -4,6 +4,10 @@ body {
   color: #ffffff;
 }
 
+h1{
+  margin: 0;
+}
+
 h3{
   border-bottom: solid .5px #a0a0a0;
 }
@@ -14,18 +18,39 @@ p{
 }
 
 .FilesPage {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr;
+}
+
+.SideNavBar{
+  width: 70px;
+  height: 100%;
+}
+
+.TopNavBar{
   display: flex;
+  grid-column: span 3;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+}
+
+.TopNavBar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  font-size: 17px;
 }
 
 .ListColumn {
-Width:50%;
+/* Width:50%; */
 background-color: #3d3c3c;
 border-radius: 8px;
 margin:10px;
 }
 
 .ContentColumn {
-  Width:50%;
+  /* Width:50%; */
 background-color: #3d3c3c;
 border-radius: 8px;
 margin:10px;
@@ -54,28 +79,4 @@ margin:10px;
   Width:50%;
   padding:0;
   margin:0;
-}
-
-.SideNavBar{
-  width: 70px;
-  height: 100%;
-}
-
-.TopNavBar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 40px;
-  margin: 0 auto;
-  width: 100%;
-  height: 60px;
-}
-
-.TopNavBar input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
 }
