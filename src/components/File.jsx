@@ -9,14 +9,6 @@ const File = (props) => {
       {/* <p>Orders: </p> */}
       </div>
     <div className="Col2">
-
-        {/* {props.APPLICATION.map((application) => (
-        <Application
-          key={application.APPLICATIONID}
-          app_description={application.CASETYPEDESCRIPTION}
-          />
-      ))} */}
-
       <p>Filed: {props.filed}</p>
     </div>
   </div>

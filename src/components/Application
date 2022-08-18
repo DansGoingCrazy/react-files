@@ -1,6 +1,0 @@
-const Application = (props) => {
-  console.log(props)
-  return <div>{props.app_description}</div>
-}
-
-export default Application
