@@ -1,9 +1,7 @@
-import Application from "./Application"
-
 const File = (props) => {
 // console.log(props)
   return (
-  <div className="file" id={props.file_number}>
+  <a className="file" href="###" id={props.file_number}>
     <div className="Col1">
       <p>{props.number} - {props.title}</p>
       {/* <p>Orders: </p> */}
@@ -11,7 +9,7 @@ const File = (props) => {
     <div className="Col2">
       <p>Filed: {props.filed}</p>
     </div>
-  </div>
+  </a>
   )
 }
 
