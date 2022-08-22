@@ -1,7 +1,7 @@
 const File = (props) => {
 // console.log(props)
   return (
-  <a className="file" href="###" id={props.file_number}>
+  <li className="file" id={props.file_number}>
     <div className="Col1">
       <p>{props.number} - {props.title}</p>
       {/* <p>Orders: </p> */}
@@ -9,8 +9,10 @@ const File = (props) => {
     <div className="Col2">
       <p>Filed: {props.filed}</p>
     </div>
-  </a>
+  </li>
   )
 }
+
+
 
 export default File

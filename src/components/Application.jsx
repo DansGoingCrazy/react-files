@@ -1,8 +1,8 @@
 const Application = (props) => {
   return (
-    <div className='Application'>
+    <li className='Application'>
       <p>{props.description}</p>
-    </div>
+    </li>
   )
 }
 

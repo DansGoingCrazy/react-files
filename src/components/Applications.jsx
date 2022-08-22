@@ -4,7 +4,7 @@ const Applications = (props) =>
 {
   // console.log(props)
   return (
-    <div className="Applications">
+    <ul className="Applications">
       {props.uniqueApps.map((app) => (
         <Application
           key={app.APPLICATIONID}
@@ -14,7 +14,7 @@ const Applications = (props) =>
           applicant={app.APPLICANTNAMESDESCRIPTION}
         />
       ))}
-    </div>
+    </ul>
   ) 
 }
 export default Applications

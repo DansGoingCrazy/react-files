@@ -3,6 +3,8 @@ import TopNavBar from './components/TopNavBar'
 import SideNavBar from './components/SideNavBar'
 import ListColumn from './components/ListColumn'
 import ContentColumn from './components/ContentColumn'
+import File from './components/File'
+import { useState } from 'react'
 
 const App = () => {
   return (

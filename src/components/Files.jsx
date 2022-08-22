@@ -4,7 +4,7 @@ const Files = (props) =>
 {
   // console.log(props)
   return (
-    <div className="files">
+    <ul className="files">
       {props.uniqueFiles.map((file) => (
         <File
           key={file.FILEID}
@@ -15,7 +15,7 @@ const Files = (props) =>
           application={file.APPLICATION}
         />
       ))}
-    </div>
+    </ul>
   ) 
 }
 export default Files
