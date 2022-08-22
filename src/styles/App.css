@@ -121,6 +121,11 @@ margin:10px;
   margin:0 0 0 10px;
 }
 
+ul{
+  padding: 0;
+  margin: 0;
+}
+
 .ContentColumn {
   background-color: #3d3c3c;
   border-radius: 8px;
