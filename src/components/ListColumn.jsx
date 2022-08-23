@@ -6,11 +6,13 @@ const map = new Map(data.map((f) => [f.FILEID, f]))
 const uniqueFiles = [...map.values()]
 // console.log(uniquesFiles)
 
-const ListColumn = () => {
+const ListColumn = (props) => {
   return (
     <div className='ListColumn'>
       <h3>Files</h3>
-      <Files uniqueFiles={uniqueFiles} />
+      <Files  
+        updateFileId={props.updateFileId} 
+        uniqueFiles={uniqueFiles} />
     </div>
   )
 }

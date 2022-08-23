@@ -12,7 +12,8 @@ const Files = (props) =>
           number={file.FULLCASEFILENO}
           title={file.TITLE}
           filed={file.CREATEDDATE}
-          application={file.APPLICATION}
+          application={file.APPLICATION} 
+          updateFileId={props.updateFileId} 
         />
       ))}
     </ul>
