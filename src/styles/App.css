@@ -10,15 +10,20 @@ h1{
 
 h2{
   font-size: 2em;
-  border-bottom: solid .5px #a0a0a0;
   margin: 0;
   padding: 5px 0;
 }
 
 h3{
-  font-size: 1em;
+  font-size: 1.5em;
   margin: 0;
   padding: 5px 0;
+}
+
+h4{
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 p{
@@ -139,11 +144,16 @@ ul{
   margin:10px;
 }
 
+.Header{
+  display:flex;
+  border-bottom: solid .5px #a0a0a0;
+}
+
 .Application {
   display: flex;
   flex-direction: column;
   justify-content:space-between;
   padding:10px 0;
   color: #ffffff;
-  border-bottom: solid .5px #a0a0a0;
+  /* border-bottom: solid .5px #a0a0a0; */
 }
