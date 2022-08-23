@@ -14,7 +14,12 @@ const Applications = (props) =>
           number={app.FULLCASEFILENO}
           description={app.CASETYPEDESCRIPTION}
           filed={app.LODGEMENTDATE}
+          fileStatus={app.STATUSID}
           applicant={app.APPLICANTNAMESDESCRIPTION}
+          ordersSought={app.DESCRIPTION}
+          orderStatus={app.STATUS}
+          orderStatusDate={app.STATUSDATE}
+
         />)}else{
           return (
             <></>
