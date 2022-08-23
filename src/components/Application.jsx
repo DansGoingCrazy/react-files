@@ -2,7 +2,9 @@ const Application = (props) => {
   // console.log(props)
   return (
     <li className='Application'>
-      <p>{props.number} - {props.description}</p>
+      <p>{props.description}</p>
+      <p>Applicant: {props.applicant}</p> 
+      <p>Filing Date: {props.filed}</p> 
     </li>
   )
 }
