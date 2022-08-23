@@ -22,7 +22,7 @@ h2{
 h3{
   font-size: 1.5em;
   margin: 0;
-  padding: 5px 0;
+  padding: 5px 20px;
 }
 
 h4{
@@ -43,6 +43,7 @@ b{
 .FilesPage {
   display: grid;
   grid-template-columns: 60px 1fr 1fr;
+  gap: 10px;
 }
 
 .SideNavBar{
@@ -50,6 +51,7 @@ b{
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  gap: 10px;
 
   width: 70px;
   height: 100%;
@@ -59,7 +61,12 @@ b{
   background-color: #3d3c3c;
   padding:10px;
   border-radius: 8px;
-  margin: 10px 0
+}
+
+#IconActive{
+  background-color: #a0a0a0;
+  padding:10px;
+  border-radius: 8px;
 }
 
 #Icon:link {
@@ -104,16 +111,17 @@ b{
   background-color: #a0a0a0;
 }
 
-.ListColumn {
+.Column {
 background-color: #3d3c3c;
 border-radius: 8px;
-padding: 0 20px;
-margin:10px;
+/* padding: 0 20px; */
+/* margin:10px; */
 }
 
 .files{
   max-height: var(--max-height);
   overflow: auto;
+  padding: 0 20px;
 }
 
 .file {
@@ -145,7 +153,7 @@ margin:10px;
 .Col2{
   min-width: 140px;
   padding:0;
-  margin:0 0 0 10px;
+  /* margin:0 0 0 10px; */
 }
 
 ul{
@@ -153,19 +161,14 @@ ul{
   margin: 0;
 }
 
-.ContentColumn {
-  background-color: #3d3c3c;
-  border-radius: 8px;
-  padding: 0 20px;
-  margin:10px;
-}
-
 .Header{
   display:flex;
+  padding: 0 20px;
   border-bottom: solid .5px #a0a0a0;
 }
 
 .Applications{
+  padding: 0 20px;
   max-height: var(--max-height);
   overflow: auto;
 }

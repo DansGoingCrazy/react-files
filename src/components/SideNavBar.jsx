@@ -10,7 +10,7 @@ const SideNavBar = () => {
   <div id="Icon">
   <MdHomeFilled />
   </div>
-  <div id="Icon">
+  <div id="IconActive">
   <FaFolderOpen />
   </div>
   <div id="Icon">

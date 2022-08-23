@@ -9,7 +9,7 @@ const uniqueApps = [...map.values()]
 
 const ContentColumn = (props) => {
   return (
-    <div className='ContentColumn'>
+    <div className='Column'>
       <div className='Header'>
         <FaFolderOpen size='3em'/><h2>&nbsp; File Details</h2>
       </div>
