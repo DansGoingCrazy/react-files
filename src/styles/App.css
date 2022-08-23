@@ -8,9 +8,15 @@ h1{
   margin: 0;
 }
 
-h3{
+h2{
   font-size: 2em;
   border-bottom: solid .5px #a0a0a0;
+  margin: 0;
+  padding: 5px 0;
+}
+
+h3{
+  font-size: 1em;
   margin: 0;
   padding: 5px 0;
 }
@@ -135,6 +141,7 @@ ul{
 
 .Application {
   display: flex;
+  flex-direction: column;
   justify-content:space-between;
   padding:10px 0;
   color: #ffffff;

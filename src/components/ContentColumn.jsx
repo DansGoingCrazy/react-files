@@ -10,7 +10,7 @@ const uniqueApps = [...map.values()]
 const ContentColumn = (props) => {
   return (
     <div className='ContentColumn'>
-      <h3>Applications</h3>
+      <h2>Applications</h2>
       <Applications 
         fileId={props.fileId} 
         uniqueApps={uniqueApps} />

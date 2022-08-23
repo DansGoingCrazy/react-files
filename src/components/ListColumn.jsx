@@ -9,7 +9,7 @@ const uniqueFiles = [...map.values()]
 const ListColumn = (props) => {
   return (
     <div className='ListColumn'>
-      <h3>Files</h3>
+      <h2>Files</h2>
       <Files  
         updateFileId={props.updateFileId} 
         uniqueFiles={uniqueFiles} />
